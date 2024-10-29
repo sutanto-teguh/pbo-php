@@ -1,3 +1,4 @@
+<?PHP
 class WebDumper extends Dumper
 {
 	public function dump($data)
@@ -7,3 +8,4 @@ class WebDumper extends Dumper
 		echo '</pre>';
 	}
 }
+?>
